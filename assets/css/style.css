@@ -1,0 +1,109 @@
+.background {
+    background-color: #902923;
+}
+body {
+    padding-left: 310px;
+    background-color: #f5e9ea;
+}
+.waves-effect.waves-red .waves-ripple {
+    background-color: #a22c29;
+}
+.side-nav {
+    box-shadow: 1px 1px 10px black;
+}
+.flag{
+    width: 35px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.side-nav .user-view .circle,
+.side-nav .userView .circle {
+    height: 140px;
+    width: 140px;
+    margin-left: 50px;
+}
+.side-nav .user-view .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.side-nav .user-view .job {
+    font-weight: bold;
+    font-size: 17px;
+}
+.side-nav .user-view .info {
+    font-weight: bold;
+    font-size: 15px;
+}
+.side-nav li > a.active {
+    border-right: #902923 solid 5px;                
+}
+.side-nav li > a:hover {
+    margin-left: 10px;       
+}
+.nav-wrapper {
+    background: #902923;
+}
+#progress {
+    margin-bottom: 0px;
+    height: 20px;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #d6b1af;
+}
+.progress .determinate {
+    background-color: #902923;
+}
+.card .card-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 30px;
+}
+@media only screen and (max-width : 980px) {
+    body {
+        padding-left: 0;
+    }
+    .flag{
+        width: 35px;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+    .side-nav .user-view .circle,
+    .side-nav .userView .circle {
+        height: 140px;
+        width: 140px;
+        margin-left: 60px;
+    }
+    .job {
+        margin: 0px;
+    }
+    .job2 {
+        margin: 0px;
+    }
+    .parallax-container  .parallax img {
+        overflow: hidden;
+        width: 100%;
+    }
+    .parallax-container {
+        height: 200px;
+    }
+    .header {
+        align-content: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .side-nav .user-view .name {
+        font-weight: bold !important;
+    }
+    .card .card-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .side-nav {
+        box-shadow: none;
+    }
+}
