@@ -330,7 +330,10 @@ h3 {
     transform: translateY(5px);
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
-
+.projectPic {
+    width: 300px;
+    height: auto;
+}
 
 /* ================ Timeline Media Queries ================ */
 
@@ -366,7 +369,7 @@ h3 {
     .direction-r .flag:before {
         position: absolute;
         top: -30px;
-        left: 50%;
+        left: 62%;
         content: ' ';
         display: block;
         width: 12px;
@@ -382,7 +385,7 @@ h3 {
     .direction-r .flag:after {
         content: "";
         position: absolute;
-        left: 50%;
+        left: 62%;
         top: -8px;
         height: 0;
         width: 0;

@@ -11,3 +11,4 @@ $(document).ready(function () {
     });
     $('.modal').modal(); // control de la modal
 });
+AOS.init();
