@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/css/materialize.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/timeline.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>C.V Numérique</title>
 </head>
 
@@ -40,12 +42,13 @@
             </div>
             <div class="row center-align">
                 <div class="col s6 m6 l6">
-                    <a href="https://github.com/RubyCouz" title="Link to my github"target="_blank">
+                    <a href="https://github.com/RubyCouz" title="Link to my github" target="_blank">
                         <img src="assets/img/icons/github_link.png" alt="Github icon">
                     </a>
                 </div>
                 <div class="col s6 m6 l6">
-                    <a href="https://www.linkedin.com/in/cedric-cousin-359307124/" title="Link to my Linkedin" target="_blank">
+                    <a href="https://www.linkedin.com/in/cedric-cousin-359307124/" title="Link to my Linkedin"
+                       target="_blank">
                         <img src="assets/img/icons/Linkedin.png" alt="Linkedin icon">
                     </a>
                 </div>
@@ -63,9 +66,9 @@
         <a class="js-scrollTo center-align waves-effect waves-red" href="#experience"
            title="Experience">Experiences</a>
     </li>
-<!--    <li>-->
-<!--        <a class="js-scrollTo center-align waves-effect waves-red" href="#education" title="Education">Education</a>-->
-<!--    </li>-->
+    <!--    <li>-->
+    <!--        <a class="js-scrollTo center-align waves-effect waves-red" href="#education" title="Education">Education</a>-->
+    <!--    </li>-->
     <li>
         <a class="js-scrollTo center-align waves-effect waves-red" href="#interests"
            title="Centre d'intérêt">Interests</a>
@@ -85,7 +88,7 @@
 
 <!--        <img src="assets/img/work.jpg" alt="image pc avec programme de code" title="Développement"/>-->
 <div class="intro" id="about">
-    <div class="block intro">
+    <div class="block ">
         <div class="row">
             <div class="col s6 divid">
                 <p class="white-text about title right-align">About me</p>
@@ -96,6 +99,13 @@
                     and to
                     test my autonomy, my curiosity, my ability to self-teach and my thoroughness.
                     Web is a really exciting area, constantly evolving and where there is a lot to learn!
+                </p>
+                <p class="white-text about right-align">
+                    I wish to move to Quebec, administratives steps are underway, I can get a work permit.
+                </p>
+                <p class="white-text about right-align">
+                    Currently a trainer in an adult training center, i'm looking for a web development job or a trainer
+                    job for August 2021.
                 </p>
             </div>
         </div>
@@ -229,15 +239,30 @@
 <h2 class="header center-align">My career</h2>
 <div id="experience" class="section scrollspy">
     <!-- The Timeline -->
-    <ul class="timeline">
-        <!-- Item 1 -->
-        <li>
-            <div class="direction-r" data-aos="zoom-in-left">
-                <div class="flag-wrapper">
-                    <span class="flag">Trainer</span>
-                    <span class="time-wrapper"><span class="time">01/2020 - present</span></span>
+    <section class="timeline">
+        <div class="container">
+            <div class="timeline-item" data-aos="zoom-in">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card">
+                    <div class="timeline-img-header">
+                        <h3>Lead developper</h3>
+                    </div>
+                    <div class="date">06/2020 - present</div>
+                    <p>
+                        Lead the developpement of EterleZ's website on my own time using React.js, API-platform,
+                        Material-UI
+                    </p>
+                    <p>Project design (UML)</p>
+                    <p>
+                        Management and monitoring of trainees' work
+                    </p>
                 </div>
-                <div class="desc">
+            </div>
+            <div class="timeline-item" data-aos="zoom-in">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <h3>Trainer</h3>
+                    <div class="date">01/2020 - present</div>
                     <p>AFPA, 80000 Amiens</p>
                     <p>Training on the following languages and frameworks :</p>
                     <div class="row">
@@ -267,30 +292,29 @@
                     <p>Follow-up of trainees during their internship</p>
                     <p>Preparation for graduation</p>
                     <p>
-                        Development of an intern management platform, <a href="https://ncode.amorce.org" title="ncode.amorce.org" target="_blank">Ncode</a>
+                        Development of an intern management platform, <a href="https://ncode.amorce.org"
+                                                                         title="ncode.amorce.org"
+                                                                         target="_blank">Ncode</a>
                     </p>
                     <p>
-                        <a href="https://ncode.amorce.org" title="ncode.amorce.org" class="hvr-float-shadow" target="_blank">
-                            <img src="assets/img/thumbnails/ncode.png" alt="Thumbnails of Ncode" title="Ncode.amorce.org" class="projectPic">
+                        <a href="https://ncode.amorce.org" title="ncode.amorce.org" class="hvr-float-shadow"
+                           target="_blank">
+                            <img src="assets/img/thumbnails/ncode.png" alt="Thumbnails of Ncode"
+                                 title="Ncode.amorce.org" class="projectPic">
                         </a>
                     </p>
-
                 </div>
             </div>
-        </li>
-        <!-- Item 2 -->
-        <li>
-            <div class="direction-l" data-aos="zoom-in-right">
-                <div class="flag-wrapper">
-                    <span class="flag">Trainer</span>
-                    <span class="time-wrapper"><span class="time">12/2018 - 12/2019</span></span>
-                </div>
-                <div class="desc">
+            <div class="timeline-item" data-aos="zoom-in">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <h3>Trainer</h3>
+                    <div class="date">12/2018 - 12/2019</div>
                     <p>E2N, 60400 Noyon</p>
                     <p>Speakers on the AFPA's site, 80000 Amiens</p>
                     <p>Training on the following languages and frameworks :</p>
                     <div class="row">
-                        <div class="col s4 offset-s4">
+                        <div class="col s4">
                             <ul>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -309,18 +333,13 @@
                     </div>
                     <p>Support for trainees during their training</p>
                     <p>Follow-up of trainees during their internship</p>
-                    <p>Preparation for graduation</p>
                 </div>
             </div>
-        </li>
-        <!-- Item 3 -->
-        <li>
-            <div class="direction-r" data-aos="zoom-in-left">
-                <div class="flag-wrapper">
-                    <span class="flag">E2N training</span>
-                    <span class="time-wrapper"><span class="time">06/2018 - 12/2018</span></span>
-                </div>
-                <div class="desc">
+            <div class="timeline-item" data-aos="zoom-in">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <div class="date">06/2018 - 12/2018</div>
+                    <h3>E2N training</h3>
                     <p><b>"Development of digital sites and appplications"</b></p>
                     <p>Getting <strong>the level III professional title (bac +2)</strong> "Web developer"
                         RNCP : 5927</p>
@@ -334,18 +353,13 @@
                         <li>Creating a niche with Wordpress</li>
                         <li>Creating my web CV with Materialize</li>
                     </ul>
-                    <p></p>
                 </div>
             </div>
-        </li>
-        <!-- Item 4 -->
-        <li>
-            <div class="direction-l" data-aos="zoom-in-right">
-                <div class="flag-wrapper">
-                    <span class="flag">Restaurant worker</span>
-                    <span class="time-wrapper"><span class="time">01/2004 - 03/2017</span></span>
-                </div>
-                <div class="desc">
+            <div class="timeline-item" data-aos="zoom-in">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <h3>Restaurant worker</h3>
+                    <div class="date">01/2004 - 03/2017</div>
                     <p>01/2004 - 01/2011</p>
                     <p><b>Waiter</b></p>
                     <p>Room and bar service; stock, inventory and room management, building a website for the
@@ -357,20 +371,16 @@
                     </p>
                 </div>
             </div>
-        </li>
-        <!-- Item 5 -->
-        <li>
-            <div class="direction-r" data-aos="zoom-in-left">
-                <div class="flag-wrapper">
-                    <span class="flag">Baccalauréat scientifique</span>
-                    <span class="time-wrapper"><span class="time">2003</span></span>
-                </div>
-                <div class="desc">
+            <div class="timeline-item" data-aos="zoom-in">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <div class="date">06/2003</div>
+                    <h3>Baccalauréat scientifique</h3>
                     <p>Delivered at Cassini, 60600 Clermont</p>
                 </div>
             </div>
-        </li>
-    </ul>
+        </div>
+    </section>
 </div>
 <div id="interests" class="section scrollspy">
     <div class="row">
@@ -390,8 +400,10 @@
                     <div id="modalMusic" class="modal">
                         <div class="modal-content">
                             <h4>Music</h4>
-                            <p>I'm fond of listening music, it's really a passion to me. I always search new discoveries. I
-                                listen to almost all music style, but i prefer metal music and all the genders around.</p>
+                            <p>I'm fond of listening music, it's really a passion to me. I always search new
+                                discoveries. I
+                                listen to almost all music style, but i prefer metal music and all the genders
+                                around.</p>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat">Close</a>
@@ -410,7 +422,8 @@
                             <p>
                                 Being a metal music fan, i wanted to deepen this passion in learning playing electrique
                                 guitar.
-                                I've been playing guitar for 17 years, and i learnt playing by my self, and with friends. i
+                                I've been playing guitar for 17 years, and i learnt playing by my self, and with
+                                friends. i
                                 play bass too sometime.
                             </p>
                         </div>
@@ -441,7 +454,8 @@
                 </div>
                 <div class="col m2">
                     <!-- Modal Trigger -->
-                    <a class="modal-trigger about hvr-float-shadow" href="#modalVideoGames" title="Click me to show more">
+                    <a class="modal-trigger about hvr-float-shadow" href="#modalVideoGames"
+                       title="Click me to show more">
                         <img src="assets/img/icons/gaming.png" alt="Video games icon" title="Video games">
                     </a>
                     <!-- Modal Structure -->
@@ -449,7 +463,8 @@
                         <div class="modal-content">
                             <h4>Video games</h4>
                             <p>
-                                I always played video games since i my childhood and i still follow the gaming evolution.
+                                I always played video games since i my childhood and i still follow the gaming
+                                evolution.
                                 I've been playing on xbox for 7 years,
                                 and don't want to change! I'm fond of F.P.S, M.M.O.R.P.G games, horror-survival games,
                                 action-adventure games. I manage a gamers community for 5 years.
@@ -463,7 +478,8 @@
                 </div>
                 <div class="col m2">
                     <!-- Modal Trigger -->
-                    <a class="modal-trigger about hvr-float-shadow" href="#modalMovies" title="Cliquez pour en savoir plus!">
+                    <a class="modal-trigger about hvr-float-shadow" href="#modalMovies"
+                       title="Cliquez pour en savoir plus!">
                         <img src="assets/img/icons/movies.png" alt="Movies and series icon" title="Movies and series">
                     </a>
                     <!-- Modal Structure -->
@@ -472,8 +488,10 @@
                             <h4>Movies and series</h4>
                             <p>
                                 My favorites genders are horror movies, sci-fi movies, fantaisy movies, comic movies.
-                                I love watching movies and series to escape, relax. I like to see some movies (or series) as
-                                a possible futur, more or less near, or as parallels universes where all is possible, like
+                                I love watching movies and series to escape, relax. I like to see some movies (or
+                                series) as
+                                a possible futur, more or less near, or as parallels universes where all is possible,
+                                like
                                 video games
                             </p>
                         </div>
