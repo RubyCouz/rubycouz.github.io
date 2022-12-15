@@ -165,7 +165,36 @@ h3 {
     transform: translateY(5px);
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
-
+.width-ten {
+    width: 10%;
+}
+.width-twenty {
+    width: 20%;
+}
+.width-thirty {
+    width: 30%;
+}
+.width-forty {
+    width: 40%;
+}
+.width-fifty {
+    width: 50%;
+}
+.width-sixty {
+    width: 60%;
+}
+.width-seventy {
+    width: 70%;
+}
+.width-eighty {
+    width: 80%;
+}
+.width-ninety {
+    width: 90%;
+}
+.width-one-hundred {
+    width: 100%;
+}
 @media only screen and (max-width : 980px) {
     body {
         padding-left: 0;

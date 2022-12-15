@@ -121,11 +121,11 @@ header p {
 .timeline-card p {
   padding: 0 20px;
 }
-.timeline-card a {
-  margin-left: 20px;
-}
+/*.timeline-card a {*/
+/*  margin-left: 20px;*/
+/*}*/
 .timeline-item .timeline-img-header {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('../img/thumbnails/COMING_SOON.jpg') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('../img/thumbnails/eterelz.png') center center no-repeat;
   background-size: cover;
 }
 .timeline-img-header {
